@@ -46,6 +46,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*css reset ends here*/
+
 
 * {
     box-sizing: border-box;
@@ -69,6 +71,34 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+
+header {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+   
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.headerimg {
+    margin: 30px auto;
 }
 
 .top-content {
@@ -101,15 +131,54 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes #box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +212,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*about page specifics start here*/
+
+.top-about {
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    padding-left: 25px;
+   
+}
+
+.middleAbout {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+.middleAbout div {
+    width: 370px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed black;
+    
+}
+
+.middleAbout img, p, button {
+    margin-bottom: 15px;
+}
+
+.middleAbout img {
+    margin-top: 35px;
+}
+
+.middleAbout button {
+    font-size: 1rem;
+    padding: 10px;
+    width: 125px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.last-about {
+    margin: 30px 15px 40px 15px;
 }
