@@ -73,32 +73,33 @@ p {
     margin: 0 auto;
 }
 
-/* .header header {
-    display: flex;
-    flex-flow: row wrap;
-
-} */
-
-.header .lambda {
-    margin-right: 30px;
-    width: auto;
-}
-
-.header .headerimg {
-    margin: 30px auto;
-}
 
 header {
+    margin-top: 25px;
+    width: 100%;
     display: flex;
-    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+   
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
 }
 
 header nav a {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
+    text-decoration: none;
+    color: black;
 }
 
+
+.headerimg {
+    margin: 30px auto;
+}
 
 .top-content {
     display: flex;
